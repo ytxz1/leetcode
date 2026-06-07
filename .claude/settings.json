@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python solutions/3120_special_chars.py)",
+      "Bash(g++ -o 3120_special_chars 3120_special_chars.cpp)",
+      "Bash(./3120_special_chars)",
+      "Bash(g++ -o solution solution.cpp)",
+      "Bash(./solution)",
+      "WebSearch"
+    ]
+  }
+}
