@@ -13,7 +13,19 @@
       "Bash(make clean *)",
       "Bash(make)",
       "Bash(make run *)",
-      "Bash(g++ -std=c++11 -Wall -Wextra -O2 -o solution solution.cpp)"
+      "Bash(g++ -std=c++11 -Wall -Wextra -O2 -o solution solution.cpp)",
+      "Bash(g++ --version)",
+      "Bash(gdb --version)",
+      "Read(//c/msys64/ucrt64/bin/**)",
+      "Bash(pacman -Q gdb)",
+      "Bash(pacman -Q mingw-w64-ucrt-x86_64-gdb)",
+      "Bash(pacman -S mingw-w64-ucrt-x86_64-gdb --noconfirm)",
+      "Bash(ls /c/msys64/ucrt64/bin/pacman* 2>/dev/null; ls /c/msys64/usr/bin/pacman* 2>/dev/null)",
+      "Read(//c/msys64/usr/bin/**)",
+      "Bash(/c/msys64/usr/bin/pacman.exe -S mingw-w64-ucrt-x86_64-gdb --noconfirm)",
+      "Bash(g++ -std=c++11 -Wall -Wextra -g -o solution.exe solution.cpp)",
+      "Bash(./solution.exe)",
+      "Bash(g++ -std=c++17 -o solution solution.cpp)"
     ]
   }
 }
